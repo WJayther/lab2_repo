@@ -2,9 +2,8 @@
 def find_min(array):
 	min = array[0]
 	for i in array:
-		if i < min: 
+		if i < min:
 			min = i
-	
 	return min
 
 def find_avrg(array):
